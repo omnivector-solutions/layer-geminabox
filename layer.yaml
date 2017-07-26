@@ -1,0 +1,14 @@
+includes:
+  - layer:basic
+  - layer:snap
+  - interface:http
+options:
+  snap:
+    geminabox:
+      channel: stable
+      devmode: true
+      jailmode: false
+      dangerous: false
+      classic: false
+      revision: null
+repo: "https://github.com:creativedrive/charms"
